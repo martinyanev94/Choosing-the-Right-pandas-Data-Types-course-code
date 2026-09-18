@@ -1,11 +1,3 @@
-df = pd.DataFrame([
+pd.Series([0, None, 2]).fillna(0).astype(int).mean()
 
-    ["foo", 1, 123.45],
-
-    ["bar", 2, 333.33],
-
-    ["baz", 3, 999.99],
-
-], columns=list("abc"))
-
-df.dtypes
+pd.Series([0, None, 2], dtype=pd.Int64Dtype()).mean()
