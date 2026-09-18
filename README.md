@@ -1,0 +1,2 @@
+# Choosing-the-Right-pandas-Data-Types-course-code
+Learn how pandas types evolved from NumPy to extension and Arrow backends, then practice picking and constructing the right dtype for integers, floats, booleans, strings, categories, and datetimes—while handling missing values correctly with pd.NA. This lesson explains why pandas has three living type backends—NumPy, extension types, and Arrow—and 
